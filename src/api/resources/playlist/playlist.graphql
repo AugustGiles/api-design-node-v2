@@ -1,0 +1,6 @@
+type Playlist {
+  id: ID!
+  title: String!
+  songs: [Song]
+  favorite: Boolean!
+}
